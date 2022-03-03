@@ -39,11 +39,9 @@ function filterByQuery(query, animalsArray) {
     } else {
       personalityTraitsArray = query.personalityTraits;
     }
-    // loop through each trait in the personalityTraits array:
-    personalityTraitsArray.forEach((trait) => {
-      // Check trait against each animal in the filtered results
+    personalityTraitsArray.forEach(trait => {
       filteredResults = filteredResults.filter(
-        (animal) => animal.personalityTraits.indexOf(trait) !== -1
+        animal => animal.personalityTraits.indexOf(trait) !== -1
       );
     });
   }
