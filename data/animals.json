@@ -117,6 +117,35 @@
         "hungry"
       ],
       "id": "11"
+    },
+    {
+      "name": "Jerry",
+      "species": "Human",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "hungry"
+      ],
+      "id": "12"
+    },
+    {
+      "name": "Kitty",
+      "species": "Big Cat",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "zany"
+      ],
+      "id": "13"
+    },
+    {
+      "name": "Geree",
+      "species": "Hamster",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "hungry",
+        "anxious",
+        "loving"
+      ],
+      "id": "14"
     }
   ]
 }
